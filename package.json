@@ -1,0 +1,27 @@
+{
+  "name": "stic-server",
+  "version": "1.0.0",
+  "description": "A fast and reliable way for serving static files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "serve",
+    "node",
+    "static"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carlosroec/stic-server.git"
+  },
+  "author": "Carlos G. Rodriguez <carlosro.ec@gmail.com> (http://www.carlosrodriguez.io/)",
+  "license": "MIT",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "express": "^4.15.3",
+    "morgan": "^1.8.2",
+    "opn": "^5.1.0",
+    "serve-index": "^1.9.0"
+  }
+}
